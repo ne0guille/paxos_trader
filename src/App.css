@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: #110;
+}
+h1 {
+  font-size: 3.5vw;
+  color: #dff;
+}
+h2 {
+  font-size: 5vw;
+  font-weight: bold;
+  color: goldenrod;
+}
+div.price {
+  padding-top: 40px;
+}
+.price {
+  text-align: right;
+}
+td {
+  padding: 1.6vw;
+}
+#XSD {
+  color: goldenrod;
+}
+#ETH {
+  color: #da7520;
+}
+#LTC {
+  color: #ca7560;
+}
+.when {
+  font-size: 2.6vw;
+}
+div#call-counter {
+  padding-top: 20px;
+  font-size: 2.6vw;
+  color: #dff;
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 10vw;
+  }
+  div#call-counter {
+    font-size: 4vw;
+  }
+  .when {
+    font-size: 4.4vw;
+  }
+}
+@media screen and (min-width: 1001px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 52px;
+  }
+  div#call-counter {
+    font-size: 26px;
+  }
+  .when {
+    font-size: 25px;
+  }
+  td {
+    padding: 15px;
+  }
+}
