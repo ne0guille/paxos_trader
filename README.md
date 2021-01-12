@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Budget: $300-$500
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Task: Update crypto trading app to show wallet account balances for a PAXOS account holder
 
-## Available Scripts
+The app currently retrieves prices from the public APIs for the cryptocurrency prices of BTC, ETH and LTC.  
+This works OK.  
+The task now is to add functionality to show the current wallet balances for a specifc account.  
+The existing axios calls (which work) to get the prices are in getData().  
 
-In the project directory, you can run:
+I have written pseudo code in getMyWalletBalances() to get the account wallet balances.  
+It attempt to follow the instructions at https://api.itbit.com/docs#faq-2.-how-do-i-sign-a-request?  
 
-### `yarn start`
+I am unable to get this working as either I get errors about the dependency array, or, if I add the dependencies suggested, I get runaway http calls which leads to my api being blocked for a few minutes due to thousandss of API calls.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Your task is to get the code working so that it retrieves the wallet balances.  The psuedo code to retrieve balances is guessed code so you can change anything in it to get it working.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+As part of this I expect you to open a PAXOS account in order to test it.  
 
-### `yarn test`
+You will need to add a .env file with a REACT_APP_paxos=123456789 (replace with your key).  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once you have it working I will test it with my key.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The budget is $300 for the app code and $500 if the code has full test coverage
