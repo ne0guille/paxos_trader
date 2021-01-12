@@ -9,12 +9,12 @@ The existing axios calls (which work) to get the prices are in getData().
 
 I have written pseudo code in getMyWalletBalances() to get the account wallet balances.  
 It attempt to follow the instructions at https://api.itbit.com/docs#faq-2.-how-do-i-sign-a-request?  
-
+I found the instreuctions hard to follow so the code shows my 'best attempt". but may be wrong in several places!  
 I am unable to get this working as either I get errors about the dependency array, or, if I add the dependencies suggested, I get runaway http calls which leads to my api being blocked for a few minutes due to thousandss of API calls.
 
-Your task is to get the code working so that it retrieves the wallet balances.  The psuedo code to retrieve balances is guessed code so you can change anything in it to get it working.
+Your task is to get the code working so that it retrieves the wallet balances for a given API key.  The psuedo code to retrieve balances is guessed code so you can change anything in it to get it working.
 
-As part of this I expect you to open a PAXOS account in order to test it.  
+As part of this I expect you to open a PAXOS account in order to test it with your own Paxos API key.  
 
 You will need to add a .env file with a REACT_APP_paxos=123456789 (replace with your key).  
 
