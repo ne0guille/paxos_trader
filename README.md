@@ -12,9 +12,9 @@ The existing public API axios calls (which work) to get the prices are in getDat
 I have written pseudo code in getMyWalletBalances() to get the account wallet balances.  
 It attempt to follow the instructions at https://api.itbit.com/docs#faq-2.-how-do-i-sign-a-request?  
 I found the instreuctions hard to follow so the code shows my 'best attempt". but may be wrong in several places!  
-I am unable to get this working as either I get errors about the dependency array, or, if I add the dependencies suggested, I get runaway http calls which leads to my api being blocked for a few minutes due to thousandss of API calls (you probably know how to avoid this but be careful).
+I am also unable to get this working as either I get errors about the dependency array, or, if I add the dependencies suggested, I get runaway http calls which leads to my api being blocked for a few minutes due to thousandss of API calls (you probably know how to avoid this but be careful).
 
-Your task is to get the code working so that it retrieves the wallet balances for a given API key.  The psuedo code to retrieve balances is "guessed psudo code" so you can change anything in it to get it working. Question everything.
+Your task is to get the code working so that it retrieves the wallet balances for a given API key.  The psuedo code to retrieve wallet balances is "guessed psudo code" so you can change anything in it to get it working. Question everything.
 
 As part of this I expect you to open a PAXOS account in order to test it with your own Paxos API key.  
 
