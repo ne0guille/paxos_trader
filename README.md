@@ -1,4 +1,4 @@
-# Budget: $300-$500
+# Budget: $200-$300
 
 # Task: Update crypto trading app to show wallet account balances for a PAXOS account holder
 
