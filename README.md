@@ -22,4 +22,4 @@ You will need to add a .env file with a REACT_APP_PAXOS_KEY=123456789 (replace w
 
 Once you have it working I will test it with my key.  If the balances are correct then it works.
 
-The budget is $300 for the app code and $500 if the code also includes full test coverage
+The budget is $200 for the app code and $300 if the code also includes full test coverage
