@@ -7,11 +7,10 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
+    "crypto-js": "^4.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "sha256": "^0.2.0",
-    "sha512": "0.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
